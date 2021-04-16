@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/jotpad/static/css/main.12e1e85c.chunk.css",
+    "main.js": "/jotpad/static/js/main.0e5ad4ea.chunk.js",
+    "main.js.map": "/jotpad/static/js/main.0e5ad4ea.chunk.js.map",
+    "runtime-main.js": "/jotpad/static/js/runtime-main.8a48da7a.js",
+    "runtime-main.js.map": "/jotpad/static/js/runtime-main.8a48da7a.js.map",
+    "static/js/2.e720203f.chunk.js": "/jotpad/static/js/2.e720203f.chunk.js",
+    "static/js/2.e720203f.chunk.js.map": "/jotpad/static/js/2.e720203f.chunk.js.map",
+    "static/js/3.77e73c60.chunk.js": "/jotpad/static/js/3.77e73c60.chunk.js",
+    "static/js/3.77e73c60.chunk.js.map": "/jotpad/static/js/3.77e73c60.chunk.js.map",
+    "index.html": "/jotpad/index.html",
+    "static/css/main.12e1e85c.chunk.css.map": "/jotpad/static/css/main.12e1e85c.chunk.css.map",
+    "static/js/2.e720203f.chunk.js.LICENSE.txt": "/jotpad/static/js/2.e720203f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a48da7a.js",
+    "static/js/2.e720203f.chunk.js",
+    "static/css/main.12e1e85c.chunk.css",
+    "static/js/main.0e5ad4ea.chunk.js"
+  ]
+}
