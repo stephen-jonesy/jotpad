@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(to right bottom, #12142715, #1c1c2b33);
+}
+
+.logo {
+  margin-left: 5%;
+}
+
+h1 {
+  margin: 0;
+
+}
+
+.app-body {
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+}
+
+.sidebar {
+  width: 300px;
+  height: 100%;
+  border-right: black 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+  background-image: linear-gradient(to right bottom, #0f111f, #1c1c29);
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.76));
+  border-radius: 0 30px 20px 0;
+}
+
+a {
+  text-decoration: none; 
+
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 40px;
+  color: white;
+  font-family: 'Lobster', cursive;
+}
+
+.jot-list {
+  margin-top: 10px;
+
+}
+
+.jot {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 220px;
+  margin: 10px 0;
+  background-image: linear-gradient(to right bottom, #ffffffe0, #ffffff4f);
+  color: #121427;
+  border-radius: 2rem;
+  cursor: pointer;
+
+}
+
+.remove-btn {
+  position: relative;
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+
+}
+
+.remove-btn-active {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.726);
+
+}
+
+
+.font-ellipsis {
+  pointer-events: none;
+  font-size: 17px;
+
+}
+
+.add-btn {
+  all: unset;
+  height: 35px;
+  width: 220px;
+  cursor: pointer;
+  color: white;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 4px;
+}
+
+.font-plus {
+  margin-left: 8px;
+}
+
+.add-btn:hover {
+  color: rgba(255, 255, 255, 0.767);
+  transition: color 0.5s;
+
+}
+
+.jot-title {
+  font-size: 18px;
+  pointer-events: none;
+
+}
+
+.jot-date {
+  font-size: 12px;
+  pointer-events: none;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+  
+}
+
+.form-title {
+  height: 50px;
+  width: 60%;
+  margin-bottom: 40px;
+  padding: 0 2rem;
+  border-radius: 10px;
+    /* background-color: #1c1c2b28; */
+  background-color: #ECE9E6;
+    /* filter: drop-shadow(0 0 30px #333); */
+  border: none;
+  outline: none;
+  color: #1c1c29;
+  resize: none;
+  overflow: hidden;
+  font-size: 30px;
+}
+
+.form-text {
+  height: 400px;
+  width: 60%;
+  border: rgb(160, 158, 158) solid 1px;
+  border-radius: 5px;
+  outline: none;
+  color: black;
+  resize: none;
+  padding: 2rem;
+  font-size: 18px;
+}
+
+.active {
+  background-image: linear-gradient(to right bottom, #ffffffe0, #ffffffab);
+
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+
